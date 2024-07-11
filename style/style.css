@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+body{
+    font-family: "Lato", sans-serif;
+  /* font-weight: 100;
+  font-style: normal; */
+}
+/* banner section 1 design start */
+.banner-conatainer{
+
+    width: 1920px;
+height: 850px;
+border: 2px solid red;
+left: 0;
+right: 0;
+top: 0;
+bottom: 4017px;
+
+
+}
+
+
+
+
+
+/* banner section- 1 design end */
