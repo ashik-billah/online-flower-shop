@@ -5,22 +5,98 @@ body{
   /* font-weight: 100;
   font-style: normal; */
 }
+*{
+    margin: 0;
+    padding: 0;
+}
 /* banner section 1 design start */
-.banner-conatainer{
+.banner-container{
 
-    width: 1920px;
-height: 850px;
+    width: 1355px;
+height: 635px;
 border: 2px solid red;
-left: 0;
-right: 0;
-top: 0;
-bottom: 4017px;
+margin: 0  auto;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
 
+background: rgba(229, 84, 115, 0.1);
 
 }
+.banner-container .text-container{
+    width: 708px;
+    height: 506px;
+   
+    /* left: 240px;
+    right: 972px;
+    top: 197px;
+    bottom: 4164px; */
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
+}
+.banner-container .text-container h1{
 
+    width: 708px;
+    height: 288px;
+    left: 240px;
+    right: -240px;
+    top: 197px;
+    bottom: 21px;
+    border: 2px solid red;
+    color: rgb(39, 39, 39);
+font-family: Lato;
+font-size: 80px;
+font-weight: 800;
+line-height: 96px;
+letter-spacing: 0%;
+text-align: left;
+}
 
+.banner-container .text-container p{
+    width: 634px;
+    height: 90px;
+    left: 240px;
+    right: -166px;
+    top: 517px;
+    bottom: -101px;
+    border: 2px solid red;
+    color: rgba(39, 39, 39, 0.6);
+font-family: Lato;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: left;
+    
+}
 
+.banner-container .text-container button{
+    width: 177px;
+    height: 64px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 20px 43px 20px 43px;
+    border: 2px solid red;
+    border-radius: 8px;
+
+background: rgb(229, 84, 115);
+}
+
+.banner-container .img-container img{
+    width: 100%; 
+    height: 635px; 
+    object-fit: cover;
+    /* left: 1045px;
+    right: 240px;
+    top: 50px;
+    bottom: 4017px; */
+    border: 2px solid red;
+}
 
 /* banner section- 1 design end */
